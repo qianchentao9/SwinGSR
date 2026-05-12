@@ -1,0 +1,19 @@
+
+# 忽略模型权重文件
+*.pth
+*.ckpt
+experiments/
+checkpoints/
+
+# 忽略数据集和测试结果图片
+datasets/
+data/
+results/
+
+# 忽略 Python 缓存和虚拟环境
+__pycache__/
+*.pyc
+venv/
+env/
+.idea/
+.vscode/
